@@ -4,7 +4,9 @@
     grid-template-columns: 0.5fr 1fr;
 
 }
+.HomeContainer 
 .leftContainer{
+
     height: 100vh;
     background-color: rgb(123, 1, 1);
 
