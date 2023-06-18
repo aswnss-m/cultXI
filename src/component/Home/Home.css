@@ -87,8 +87,10 @@ text-align: center;
     grid-template-rows: auto auto;
 }
 .countDownPlacer{
-    place-self: center;
+    place-items: center;
     text-align: center;
+    min-height: 80vh;
+    display: grid;
 }
 
 .aboutContainer{
