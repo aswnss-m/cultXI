@@ -1,0 +1,11 @@
+.eventLeft{
+    display:grid;
+    width: 100%;
+    place-items: center;
+    height: 100%;
+}
+.eventNav{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
