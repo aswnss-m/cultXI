@@ -5,10 +5,7 @@ import Home from './component/Home/Home'
 function App() {
 
   return (
-    <div>
-      <div className="demo">
-        <h1>CULT !!</h1>
-      </div>
+    <div className='mainApp'>
       <Home/>
 
     </div>

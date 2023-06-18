@@ -20,3 +20,10 @@
   /* mix-blend-mode: overlay; */
   z-index: 2;
 }
+.mainApp{
+  background-image: url(./assets/grid.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  
+
+}
