@@ -110,9 +110,7 @@ a {
 }
 
 .leftContainer {
-
   background-color: rgb(11, 0, 0);
-
   padding: 2em 1em 2em 2em;
   grid-area: left;
   width: 100%;
@@ -121,6 +119,7 @@ a {
   background-repeat: no-repeat;
   background-position: 50% 30%;
   background-size: 50%;
+  animation: bigLogo 1s ease-in 1 forwards;
   /* box-shadow: 0px 0px 100px -10px #c30000; */
   box-shadow: 0px 0px 104px -10px #FF3C3C;
   z-index: 2;
@@ -128,6 +127,16 @@ a {
 
 }
 
+@keyframes bigLogo {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+  
 .theTitle {
   font-size: 6em;
   line-height: 90%;

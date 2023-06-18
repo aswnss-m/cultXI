@@ -21,13 +21,27 @@ h1 {
     justify-content: space-between;
 
 }
+.big-font{
+    font-size: 1.3rem;
+}
+.bigger-font {
+    display: inline;
+    font-family: "PrettyBoy-SemiBold";
+    font-weight: bold;
+    /* play animation enlarge once */
+    animation: enlarge 2s ease-in 1 forwards; /* Added 'forwards' value */
+}
 
-
-
-
-
-
-
+@keyframes enlarge {
+    from {
+        color: var(--bg-white);
+        font-size: 1.3rem;
+    }
+    to {
+        color: #FF3C3C;
+        font-size: 3rem;
+    }
+}
 /* FOR countdown */
 
 
@@ -83,7 +97,7 @@ text-align: center;
     flex-direction: column;
     gap: 1em;
     padding: 0 1em;
-    text-align: justify;
+    text-align: center;
     margin-top: 1em;
     width: min(800px,100%);
 }

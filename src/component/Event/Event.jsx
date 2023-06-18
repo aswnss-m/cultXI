@@ -13,11 +13,6 @@ function Event() {
   return (
     <div className="container">
       <div className="leftContainer eventLeft">
-        {/* <div className="navBar">
-          <Link to={"/"}>HOME</Link>
-          <Link to={"/events"}>EVENT</Link>
-          <Link to={"/sponsers"}>SPONSERS</Link>
-        </div> */}
         <Navbar/>
 
         <div className="link">

@@ -88,7 +88,7 @@ function Home() {
                 </h1>
 
                 <div className="overlay">
-                    <img src="src\assets\aztec.svg" alt="" />
+                    <img src="src\assets\aztec.svg" alt="CAW23 Logo" />
                 </div>
 
             </div>
