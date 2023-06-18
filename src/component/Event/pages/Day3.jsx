@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Day1() {
+function Day3() {
   return (
     <div>
-      day 1
+      day 3
     </div>
   )
 }
 
-export default Day1
+export default Day3
