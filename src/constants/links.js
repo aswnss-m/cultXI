@@ -12,20 +12,76 @@ function getImageSrc(originalLink) {
   
 export const day1 = [
     {
+        // proshow
       id: 1,
-      link: 'https://www.youtube.com/watch?v=Q5QJ9i_o5vo',
-      poster: getImageSrc('https://drive.google.com/file/d/1-Fk0FxiGsutGWsITKebYLnZ3cwnmeYzy/view?usp=drive_link'),
+      link: 'https://in.bookmyshow.com/events/cult-a-way-presents-sonic-bound/ET00361356',
+      poster: getImageSrc('https://drive.google.com/file/d/11jaBTgPkBAGC9bppcNSZpTlvdNSqD22s/view?usp=drive_link'),
+
+    },
+    // {
+    //   id: 2,
+    //   link: 'https://in.bookmyshow.com/events/cult-a-way-presents-sonic-bound/ET00361356',
+    //   poster : getImageSrc('https://drive.google.com/file/d/1RdlNHEPfSTFkSNe6PdYBgijlFvY7tkjf/view?usp=drive_link')
+    // },
+    // {
+    //   id: 3,
+    //   link: 'https://in.bookmyshow.com/events/cult-a-way-presents-sonic-bound/ET00361356',
+    //   poster : getImageSrc('https://drive.google.com/file/d/1RdlNHEPfSTFkSNe6PdYBgijlFvY7tkjf/view?usp=drive_link')
+    // },
+
+  ];
+export const day2 = [
+    {
+        // proshow
+      id: 1,
+      link: 'https://in.bookmyshow.com/events/cult-a-way-presents-sonic-bound/ET00361356',
+      poster: getImageSrc('https://drive.google.com/file/d/11x7PNKEL4LoQ-tlOlrIgalVeqducxtSM/view?usp=drive_link'),
 
     },
     {
       id: 2,
-      link: 'https://www.youtube.com/watch?v=Q5QJ9i_o5vo',
-      poster : getImageSrc('https://drive.google.com/file/d/1RdlNHEPfSTFkSNe6PdYBgijlFvY7tkjf/view?usp=drive_link')
+      link: 'https://in.bookmyshow.com/events/cult-a-way-presents-sonic-bound/ET00361356',
+      poster : getImageSrc('https://drive.google.com/file/d/1253lzhMKSyZT6TpQRtm6jAk3ZN7foZYQ/view?usp=drive_link')
     },
     {
       id: 3,
-      link: 'https://www.youtube.com/watch?v=Q5QJ9i_o5vo',
-      poster : getImageSrc('https://drive.google.com/file/d/1RdlNHEPfSTFkSNe6PdYBgijlFvY7tkjf/view?usp=drive_link')
+      link: 'https://in.bookmyshow.com/events/cult-a-way-presents-sonic-bound/ET00361356',
+      poster : getImageSrc('https://drive.google.com/file/d/11y5HP7ofw1EW1vIZPdNKYlmTgO4cTgam/view?usp=drive_link')
+    },
+    {
+      id: 4,
+      link: 'https://in.bookmyshow.com/events/cult-a-way-presents-sonic-bound/ET00361356',
+      poster : getImageSrc('https://drive.google.com/file/d/12-T9Y_kDL0NzfvzlOaQznmU-x8NgOmay/view?usp=drive_link')
     },
 
+  ];
+export const day3 = [
+    {
+        // proshow
+      id: 1,
+      link: 'https://in.bookmyshow.com/events/cult-a-way-presents-sonic-bound/ET00361356',
+      poster: getImageSrc('https://drive.google.com/file/d/12UCXVuR9P1d_eYRD4oVx05lJH1N1-0q8/view?usp=drive_link'),
+
+    },
+    {
+      id: 2,
+      link: 'https://in.bookmyshow.com/events/cult-a-way-presents-sonic-bound/ET00361356',
+      poster : getImageSrc('https://drive.google.com/file/d/12DKb8zEGDXdTgUTE3IgxOw9o487Bx0ZH/view?usp=drive_link')
+    },
+    {
+      id: 3,
+      link: 'https://in.bookmyshow.com/events/cult-a-way-presents-sonic-bound/ET00361356',
+      poster : getImageSrc('https://drive.google.com/file/d/129rc_guW6yvBnNfN4U8_ZH_t0TrZmPLN/view?usp=drive_link')
+    },
+    {
+      id: 4,
+      link: 'https://in.bookmyshow.com/events/cult-a-way-presents-sonic-bound/ET00361356',
+      poster : getImageSrc('https://drive.google.com/file/d/12PRHHu07QJTEWAPgzlgY2n3Mwrt_5dxU/view?usp=drive_link')
+    },
+    {
+      id: 5,
+      link: 'https://in.bookmyshow.com/events/cult-a-way-presents-sonic-bound/ET00361356',
+      poster : getImageSrc('https://drive.google.com/file/d/12Pps9tVhjF6T-oK8YmvqltWAwuRiIBP6/view?usp=drive_link')
+    },
+    
   ];
