@@ -1,16 +1,18 @@
 import React from 'react'
 import './Sponsers.css'
 import { Link } from 'react-router-dom'
+import Navbar from '../Navbar/Navbar'
 
 function Sponsers() {
     return (
         <div className='container'>
             <div className="leftContainer homeLeft">
-                <div className="navBar">
+                {/* <div className="navBar">
                     <Link to={"/"}>HOME</Link>
                     <Link to={"/events"}>EVENT</Link>
                     <Link to={"/sponsers"}>SPONSERS</Link>
-                </div>
+                </div> */}
+                <Navbar />
                 <h1 className="theTitle sponsershipTitle">
                    sponsers
                 </h1>

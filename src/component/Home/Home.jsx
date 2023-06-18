@@ -3,6 +3,7 @@ import './Home.css'
 import { Link } from 'react-router-dom'
 import 'animate.css';
 import Music from '../Music/Music';
+import Navbar from '../Navbar/Navbar';
 
 
 function Home() {
@@ -70,14 +71,15 @@ function Home() {
 
         <div className="container HomeContainer">
             <div className="leftContainer homeLeft">
-                <div className="navNmusic">
+                {/* <div className="navNmusic">
                     <div className="navBar">
                         <Link to={"/"}>HOME</Link>
                         <Link to={"/events"}>EVENT</Link>
                         <Link to={"/sponsers"}>SPONSERS</Link>
                     </div>
                     <Music />
-                </div>
+                </div> */}
+                <Navbar />
 
                 <h1 className="theTitle animate__animated animate__fadeIn   ">
                     THE BOHEMIAN SAGA

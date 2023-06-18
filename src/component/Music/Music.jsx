@@ -17,13 +17,13 @@ function Music() {
         }
         setIsPlaying(!isPlaying);
     };
-
+ 
 
     return (
 
         <div className="musicContainer">
             <audio ref={audioRef} src={musicFile} />
-            <div className={`switch ${isPlaying ? 'on' : 'off'}`} onClick={togglePlay}>
+            <div className={`switch ${isPlaying ? 'on' : 'off'}`}  onClick={togglePlay}>
                 <div className="handle" />
             </div>
         </div>
