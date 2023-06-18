@@ -1,16 +1,16 @@
 import React from 'react'
 import './Home.css'
-
+import { Link } from 'react-router-dom'
 function Home() {
+
   return (
-    <div className="HomeContainer">
-        <div className="leftContainer"> 
+    <div className="container HomeContainer">
+        <div className="leftContainer homeLeft"> 
             {/* <h1>LEFT</h1> */}
-            
             <div className="navBar">
-                <a href="">HOME</a>
-                <a href="">EVENT</a>
-                <a href="">SPONSERS</a>
+                <Link to={"/"}>HOME</Link>
+                <Link to={"/events"}>EVENT</Link>
+                <Link to={"/"}>SPONSERS</Link>
             </div>
             <h1 className="theTitle">
                 THE BOHEMIAN SAGA
