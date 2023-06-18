@@ -76,6 +76,11 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
+a{
+  text-decoration: none;
+  font-family: "PrettyBoy-SemiBold";
+  color: var(--off-white-90);
+}
 .container{
   display: grid;
   width: 100%;
@@ -87,11 +92,92 @@ body {
   grid-area: right;
   width: 100%;
   height: 100%;
+
+  background-image: url(./assets/grid.png);
+  background-repeat: no-repeat;
+  background-position:30% 50%;
+  background-size: 260%;
+  z-index: 1;
 }
+
 .leftContainer{
+
+  padding:2em 1em 2em 2em;
   grid-area: left;
   width: 100%;
   height: 100%;
+  /* box-shadow: 0px 0px 100px -10px #c30000; */
+  box-shadow: 0px 0px 104px -10px #9A0000;
+  z-index: 2;
+
+}
+  /* @keyframes vectorAnimation {
+    100% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } */
+.theTitle{
+  font-size: 6em;
+  line-height: 90%;
+  text-transform: uppercase;
+  color: #FEEBD7;
+  -webkit-text-stroke: 2.55px #0000;
+  text-shadow: 2px 2px 0px #FF3C3C;
+}
+
+.navBar{
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+
+  
+}
+.navBar a:hover {
+  color: #9d0101; 
+}
+/* .aztec{
+  background-image: url(./assets/aztec.svg);
+  background-repeat: no-repeat;
+
+} */
+
+
+/* @keyframes rotationAnimation {
+  100% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} */
+
+.overlay {
+  position: relative;
+}
+
+.aztec {
+  position: fixed;
+  background-image: url(./assets/aztec.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* animation: rotationAnimation 10s linear infinite; */
+  z-index: 3;
+}
+
+.navBar {
+  position: relative;
+  z-index: 1;
+  /* Your content styles here */
+}
+
+@media screen and (max-width: 860px) {
+  .theTitle{
+    font-size: 4em;
+  }
+  
 }
 @media screen and (max-width: 768px) {
   .container{
@@ -103,12 +189,24 @@ body {
     grid-area: right;
     width: 100%;
     height: 100%;
+    background-position: center;
   }
   .leftContainer{
+<<<<<<< HEAD
+=======
+    /* background-color: red; */
+>>>>>>> 6c4d7d4e29c0044ce65c00f7f3427dd577109097
     grid-area: left;
     width: 100%;
     height: fit-content;
   }
+  .theTitle{
+    padding-top:1em;
+    font-size: 3em;
+   
+}
+
+
 }
 
 
