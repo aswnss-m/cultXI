@@ -69,7 +69,7 @@ function Home() {
                 <div className="navBar">
                     <Link to={"/"}>HOME</Link>
                     <Link to={"/events"}>EVENT</Link>
-                    <Link to={"/"}>SPONSERS</Link>
+                    <Link to={"/sponsers"}>SPONSERS</Link>
                 </div>
                 <h1 className="theTitle">
                     THE BOHEMIAN SAGA
@@ -78,7 +78,7 @@ function Home() {
                 <div className="overlay">
                     <img src="src\assets\aztec.svg" alt="" />
                 </div>
-                
+
             </div>
 
             <div className="rightContainer onlyCountdown">
