@@ -105,7 +105,6 @@ body {
     height: 100%;
   }
   .leftContainer{
-    background-color: red;
     grid-area: left;
     width: 100%;
     height: fit-content;
