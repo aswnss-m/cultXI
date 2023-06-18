@@ -61,10 +61,32 @@ h1 {
 
  
 }
-.onlyCountdown {
+/* .onlyCountdown {
     width: 100%;
     display: grid;
 place-items: center;
 text-align: center;
 
+} */
+.homeRightContainer{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.countDownPlacer{
+    place-self: center;
+    text-align: center;
+}
+
+.aboutContainer{
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 0 1em;
+    text-align: justify;
+    margin-top: 1em;
+    width: min(800px,100%);
+}
+.video{
+    width: 100%;
 }

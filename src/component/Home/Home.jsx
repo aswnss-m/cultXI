@@ -1,8 +1,10 @@
+import  {CountDown}  from './CountDown';
 import React, { useState, useEffect } from 'react';
 import './Home.css'
 import { Link } from 'react-router-dom'
 import 'animate.css';
 import Music from '../Music/Music';
+import About from './About';
 import Navbar from '../Navbar/Navbar';
 
 
@@ -91,35 +93,14 @@ function Home() {
 
             </div>
 
-            <div className="rightContainer onlyCountdown">
-
-                <div className="countDown">
-                    <h1 id="headline">{isBirthday ? " CULT-A-AWAY 11" : "The saga Begins in "}</h1>
-                    {!isBirthday && (
-                        <div id="countdown">
-                            <ul id='countDownUl'>
-                                <li>
-                                    <span id="days">{days}</span>days
-                                </li>
-                                <li>
-                                    <span id="hours">{hours}</span>hours
-                                </li>
-                                <li>
-                                    <span id="minutes">{minutes}</span>minutes
-                                </li>
-                                <li>
-                                    <span id="seconds">{seconds}</span>seconds
-                                </li>
-                            </ul>
-                        </div>
-                    )}
-                    {isBirthday && (
-                        <></>
-                    )}
-                </div>
+            <div className="rightContainer homeRightContainer">
+              <span className="countDownPlacer">
+                  <CountDown   isBirthday={isBirthday} days={days} hours={hours} minutes={minutes} seconds={seconds}  />
+              </span>
+              <About />
             </div>
         </div>
     )
 }
 
-export default Home
+  export default Home
