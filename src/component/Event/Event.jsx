@@ -1,6 +1,6 @@
 import React from 'react';
 import './Event.css';
-import { useNavigate, Routes, Route,Link } from 'react-router-dom';
+import { useNavigate, Routes, Route, Link } from 'react-router-dom';
 import Day1 from './pages/Day1';
 import Day2 from './pages/Day2';
 import Day3 from './pages/Day3';

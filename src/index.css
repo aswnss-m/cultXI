@@ -170,7 +170,22 @@ a {
 } */
 
 .overlay {
-  position: relative;
+  position: absolute;
+  /* bottom: 23em; */
+  top: -10em;
+  left: -10em;
+  z-index: -2;
+  /* width: 20%; */
+  animation: rotationAnimation 40s linear infinite;
+}
+
+@keyframes rotationAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .aztec {
@@ -201,6 +216,9 @@ a {
     grid-template-rows: auto 1fr;
     grid-template-columns: 1fr;
   }
+  .overlay{
+    display:none;
+  }
 
   .rightContainer {
     grid-area: right;
@@ -214,6 +232,7 @@ a {
     grid-area: left;
     width: 100%;
     height: fit-content;
+    background-image: none;
   }
 
   .theTitle {
