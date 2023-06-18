@@ -15,7 +15,7 @@ function Event() {
       <div className="navBar">
                 <Link to={"/"}>HOME</Link>
                 <Link to={"/events"}>EVENT</Link>
-                <Link to={"/"}>SPONSERS</Link>
+                <Link to={"/sponsers"}>SPONSERS</Link>
             </div>
             
             <div className="link">
@@ -28,6 +28,10 @@ function Event() {
                     <li className = "days" onClick={() => navigate('/events/day3')}>Day 3</li>
                 </ul>
             </div>
+            <div className="overlay">
+                    <img src="src\assets\aztec.svg" alt="" />
+                </div>
+
       </div>
       <div className="rightContainer eventRight">
         <Routes>

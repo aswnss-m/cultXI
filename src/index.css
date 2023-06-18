@@ -104,6 +104,7 @@ a {
   background-size: 260%;
   z-index: 1;
   overflow-y: scroll;
+  transition: all 0.5s ease-in-out;
 }
 
 .leftContainer {
@@ -121,17 +122,10 @@ a {
   /* box-shadow: 0px 0px 100px -10px #c30000; */
   box-shadow: 0px 0px 104px -10px #FF3C3C;
   z-index: 2;
+  transition: all 0.5s ease-in-out;
 
 }
 
-/* @keyframes vectorAnimation {
-    100% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  } */
 .theTitle {
   font-size: 6em;
   line-height: 90%;
@@ -140,6 +134,7 @@ a {
   -webkit-text-stroke: 2.55px #0000;
   text-shadow: 2px 2px 0px #FF3C3C;
   cursor: pointer;
+  transition: all 1s ease-in-out;
 }
 
 .navBar {
@@ -153,22 +148,6 @@ a {
 .navBar a:hover {
   color: #FF3C3C;
 }
-
-/* .aztec{
-  background-image: url(./assets/aztec.svg);
-  background-repeat: no-repeat;
-
-} */
-
-
-/* @keyframes rotationAnimation {
-  100% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-} */
 
 .overlay {
   position: absolute;
@@ -184,6 +163,7 @@ a {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -194,14 +174,12 @@ a {
   background-image: url(./assets/aztec.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* animation: rotationAnimation 10s linear infinite; */
   z-index: 3;
 }
 
 .navBar {
   position: relative;
   z-index: 1;
-  /* Your content styles here */
 }
 
 @media screen and (max-width: 860px) {
@@ -217,8 +195,11 @@ a {
     grid-template-rows: auto 1fr;
     grid-template-columns: 1fr;
   }
-  .overlay{
-    display:none;
+
+  .overlay {
+    /* display: none; */
+    top: -15em;
+    left: -10em;
   }
 
   .rightContainer {
