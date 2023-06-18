@@ -18,7 +18,7 @@ function Event() {
             </div>
             
             <div className="link">
-                <h1 className="theTitle">
+                <h1 className="theTitle" onClick={()=>{navigate("/events")}}>
                     events
                 </h1>
                 <ul className="eventNav theTitle">
