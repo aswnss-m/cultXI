@@ -17,7 +17,7 @@ function App() {
         <Route path='/events/*' element={<Event />} />
         <Route path = '/sponsers' element= {<Sponsers/>}/> 
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </div>
 
   )
