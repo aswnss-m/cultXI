@@ -4,6 +4,7 @@ import { useNavigate, Routes, Route, Link } from 'react-router-dom';
 import Day1 from './pages/Day1';
 import Day2 from './pages/Day2';
 import Day3 from './pages/Day3';
+import All from './pages/All';
 
 function Event() {
   const navigate = useNavigate();
@@ -28,9 +29,9 @@ function Event() {
                 </ul>
             </div>
       </div>
-      <div className="rightContainer">
+      <div className="rightContainer eventRight">
         <Routes>
-          <Route path="/" element={<Day1 />} />
+          <Route path="/" element={<All />} />
           <Route path="/day1" element={<Day1 />} />
           <Route path="/day2" element={<Day2 />} />
           <Route path="/day3" element={<Day3 />} />

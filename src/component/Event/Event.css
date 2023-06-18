@@ -23,14 +23,16 @@
     padding: 1em;
     display: flex;
     width: 100%;
-    flex-direction: column;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
     gap: 1em;
     justify-content: center;
     align-items: center;
 }
 .proshowEvent{
     width: calc((80vmin*4)/5);
-    height: calc((80vmin*5)/5);
+    height: calc((80vmin*4)/5);
+    /* height: calc((80vmin*5)/5); */
 }
 .otherEvents{
     display: flex;

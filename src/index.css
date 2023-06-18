@@ -139,6 +139,7 @@ a {
   color: #FEEBD7;
   -webkit-text-stroke: 2.55px #0000;
   text-shadow: 2px 2px 0px #FF3C3C;
+  cursor: pointer;
 }
 
 .navBar {
