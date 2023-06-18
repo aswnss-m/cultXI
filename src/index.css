@@ -137,6 +137,13 @@ a {
   transition: all 1s ease-in-out;
 }
 
+.navNmusic{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
 .navBar {
   display: flex;
   flex-direction: row;

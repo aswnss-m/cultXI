@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import './Home.css'
 import { Link } from 'react-router-dom'
 import 'animate.css';
+import Music from '../Music/Music';
+
 
 function Home() {
 
@@ -10,6 +12,7 @@ function Home() {
     const [minutes, setMinutes] = useState('');
     const [seconds, setSeconds] = useState('');
     const [isBirthday, setIsBirthday] = useState(false);
+
 
     useEffect(() => {
         const second = 1000,
@@ -67,11 +70,15 @@ function Home() {
 
         <div className="container HomeContainer">
             <div className="leftContainer homeLeft">
-                <div className="navBar">
-                    <Link to={"/"}>HOME</Link>
-                    <Link to={"/events"}>EVENT</Link>
-                    <Link to={"/sponsers"}>SPONSERS</Link>
+                <div className="navNmusic">
+                    <div className="navBar">
+                        <Link to={"/"}>HOME</Link>
+                        <Link to={"/events"}>EVENT</Link>
+                        <Link to={"/sponsers"}>SPONSERS</Link>
+                    </div>
+                    <Music />
                 </div>
+
                 <h1 className="theTitle animate__animated animate__fadeIn   ">
                     THE BOHEMIAN SAGA
                 </h1>
