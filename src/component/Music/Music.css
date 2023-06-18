@@ -1,9 +1,10 @@
 .musicContainer {
-    position: relative;
+    position: absolute;
+    top: 20px;
+    right: 20px;
     width: 60px;
     height: 30px;
   }
-  
 .switch {
     position: relative;
     width: 10   0%;
