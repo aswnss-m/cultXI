@@ -87,7 +87,7 @@ function Home() {
                     <h1 id="headline">{isBirthday ? " CULT-A-AWAY 11" : "The saga Begins in "}</h1>
                     {!isBirthday && (
                         <div id="countdown">
-                            <ul>
+                            <ul id='countDownUl'>
                                 <li>
                                     <span id="days">{days}</span>days
                                 </li>
