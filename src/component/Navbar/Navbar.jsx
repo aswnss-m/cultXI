@@ -12,7 +12,6 @@ function Navbar() {
         <Link to={"/events"}>EVENT</Link>
         <Link to={"/sponsers"}>SPONSERS</Link>
     </div>
-    <Music />
 </div>
   )
 }
