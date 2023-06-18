@@ -6,8 +6,9 @@ function App() {
 
   return (
     <div className='mainApp'>
-      <Home/>
 
+      <div className="graphics"></div>
+      <Home/>
     </div>
 
   )
