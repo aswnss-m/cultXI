@@ -66,32 +66,23 @@ function Home() {
 
         <div className="container HomeContainer">
             <div className="leftContainer homeLeft">
-                {/* <h1>LEFT</h1> */}
-                {/* <div className="overlay">
-                <div className="aztec"></div>
-            </div> */}
-
-
-
-
                 <div className="navBar">
                     <Link to={"/"}>HOME</Link>
                     <Link to={"/events"}>EVENT</Link>
                     <Link to={"/"}>SPONSERS</Link>
                 </div>
-
-                {/* <img src="../assets/caw23.png" alt="" className="cawLogo" /> */}
-
-
                 <h1 className="theTitle">
                     THE BOHEMIAN SAGA
                 </h1>
 
-
+                <div className="overlay">
+                    <img src="src\assets\aztec.svg" alt="" />
+                </div>
+                
             </div>
 
             <div className="rightContainer onlyCountdown">
-                
+
                 <div className="countDown">
                     <h1 id="headline">{isBirthday ? " CULT-A-AWAY 11" : "The saga Begins in "}</h1>
                     {!isBirthday && (
