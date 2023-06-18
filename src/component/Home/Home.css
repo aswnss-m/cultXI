@@ -4,7 +4,9 @@
     grid-template-columns: 0.5fr 1fr;
 
 }
-.HomeContainer 
+.HomeContainer, h1{
+    font-family: 'PrettyBoy-SemiBold';  
+}
 .leftContainer{
 
     height: 100vh;
