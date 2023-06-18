@@ -1,7 +1,7 @@
 .footer{
     display: grid;
     position: absolute;
-    bottom: 0;
+    bottom: 0%;
     z-index: 10000;
     padding: .5em 0;
     font-size: smaller;
@@ -13,5 +13,6 @@
 /* font-family:sans-serif !important;   */
 }
 .footer a{
-    font-family:sans-serif !important;  
+    font-family:"PrettyBoy-SemiBold" !important;
+    color:#FEEBD7;
 }
