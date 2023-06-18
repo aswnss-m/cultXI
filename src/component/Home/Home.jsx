@@ -5,7 +5,8 @@ function Home() {
   return (
     <div className="HomeContainer">
         <div className="leftContainer"> 
-            <h1>LEFT</h1>
+            {/* <h1>LEFT</h1> */}
+            
             <div className="navBar">
                 <a href="">HOME</a>
                 <a href="">EVENT</a>
@@ -18,7 +19,7 @@ function Home() {
 
         </div>
         <div className="rightContainer">
-            <h1>RIGHT</h1>
+            {/* <h1>RIGH</h1> */}
 
         </div>
     </div>
