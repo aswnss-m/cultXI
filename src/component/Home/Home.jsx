@@ -104,14 +104,9 @@ function Home() {
                         </div>
                     )}
                     {isBirthday && (
-                        <div id="content" className="emoji">
-                            <span>🥳</span>
-                            <span>🎉</span>
-                            <span>🎂</span>
-                        </div>
+                        <></>
                     )}
                 </div>
-
             </div>
         </div>
     )

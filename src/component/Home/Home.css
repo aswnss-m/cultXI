@@ -62,15 +62,9 @@ h1 {
  
 }
 .onlyCountdown {
-    display: grid;
     width: 100%;
-    /* grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr; */
-    grid-template-areas: "blank blank" "blank count";
-  }
-  
-.countDown{
-    padding:0 2em 2em 0;
-    grid-area: count;
+    display: grid;
+place-items: center;
+text-align: center;
 
 }
