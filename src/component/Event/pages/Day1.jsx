@@ -1,7 +1,5 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import proshow from '../../../assets/proshow.jpg';
-import other from '../../../assets/event.jpg';
 import { day1 } from '../../../constants/links';
 
 function Day1() {
