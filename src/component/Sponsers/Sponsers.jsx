@@ -9,7 +9,7 @@ function Sponsers() {
                 <div className="navBar">
                     <Link to={"/"}>HOME</Link>
                     <Link to={"/events"}>EVENT</Link>
-                    <Link to={"/"}>SPONSERS</Link>
+                    <Link to={"/sponsers"}>SPONSERS</Link>
                 </div>
                 <h1 className="theTitle sponsershipTitle">
                    sponsers

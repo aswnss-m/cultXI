@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Home.css'
 import { Link } from 'react-router-dom'
+import 'animate.css';
 
 function Home() {
 
@@ -71,7 +72,7 @@ function Home() {
                     <Link to={"/events"}>EVENT</Link>
                     <Link to={"/sponsers"}>SPONSERS</Link>
                 </div>
-                <h1 className="theTitle">
+                <h1 className="theTitle animate__animated animate__fadeIn   ">
                     THE BOHEMIAN SAGA
                 </h1>
 
