@@ -192,10 +192,7 @@ a{
     background-position: center;
   }
   .leftContainer{
-<<<<<<< HEAD
-=======
     /* background-color: red; */
->>>>>>> 6c4d7d4e29c0044ce65c00f7f3427dd577109097
     grid-area: left;
     width: 100%;
     height: fit-content;
