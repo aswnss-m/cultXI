@@ -50,7 +50,10 @@
 html {
   scroll-behavior: smooth;
 }
-
+::-webkit-scrollbar{
+  width: 0px;
+  background: transparent;
+}
 * {
 
   margin: 0;

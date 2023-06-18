@@ -20,3 +20,19 @@
   /* mix-blend-mode: overlay; */
   z-index: 2;
 }
+
+.container{
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-areas: "left right";
+  grid-template-columns: 0.5fr 1fr;
+}
+.leftContainer{
+  grid-area: left;
+  width: 100%;
+}
+.rightContainer{
+  grid-area: right;
+  width: 100%;
+}
