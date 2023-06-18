@@ -37,11 +37,10 @@
   width: 100%;
 } */
 .mainApp{
-  background-image: url(./assets/grid.png);
+  /* background-image: url(./assets/grid.png);
   background-repeat: no-repeat;
   background-position: left;
-  z-index: 1;
+  z-index: 1; */
   /* filter: opacity(0.1) saturate(70%); */
   
-
 }

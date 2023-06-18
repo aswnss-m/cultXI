@@ -19,16 +19,3 @@
 
 }
 
-.theTitle{
-    font-size: 6em;
-    line-height: 100px;
-    /* or 117% */
-
-    text-transform: uppercase;
-
-    color: #FEEBD7;
-
-    /* border: 2.55079px solid #000000; */
-    -webkit-text-stroke: 2.55px #0000;
-    text-shadow: 2px 2px 0px #FF3C3C;
-}
