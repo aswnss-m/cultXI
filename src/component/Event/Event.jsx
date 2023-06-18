@@ -22,9 +22,9 @@ function Event() {
                     events
                 </h1>
                 <ul className="eventNav theTitle">
-                    <li onClick={() => navigate('/events/day1')}>Day 1</li>
-                    <li onClick={() => navigate('/events/day2')}>Day 2</li>
-                    <li onClick={() => navigate('/events/day3')}>Day 3</li>
+                    <li className = "days" onClick={() => navigate('/events/day1')}>Day 1</li>
+                    <li className = "days" onClick={() => navigate('/events/day2')}>Day 2</li>
+                    <li className = "days" onClick={() => navigate('/events/day3')}>Day 3</li>
                 </ul>
             </div>
       </div>
