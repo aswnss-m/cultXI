@@ -11,7 +11,7 @@ function Event() {
         </ul>
         </div>
         <div className="rightContainer">
-            <h1>RIGHT</h1>
+            {/* <h1>RIGHT</h1> */}
         </div>
     </div>
   )
