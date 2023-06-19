@@ -6,7 +6,7 @@ import Day2 from './pages/Day2';
 import Day3 from './pages/Day3';
 import All from './pages/All';
 import Navbar from '../Navbar/Navbar';
-
+import aztec from "../.././assets/aztec.svg"
 function Event() {
   const navigate = useNavigate();
 
@@ -26,7 +26,7 @@ function Event() {
           </ul>
         </div>
         <div className="overlay">
-          <img src="src\assets\aztec.svg" alt="" />
+          <img src={aztec} alt="" />
         </div>
 
       </div>

@@ -5,6 +5,7 @@ import Navbar from '../Navbar/Navbar'
 import Footer from '../Footer/Footer'
 
 import { sponsers } from '../../assets/Sponsers/sponsers.js'
+import aztec from "../.././assets/aztec.svg"
 
 function Sponsers() {
     return (
@@ -17,7 +18,7 @@ function Sponsers() {
                 </h1>
 
                 <div className="overlay">
-                    <img src="src\assets\aztec.svg" alt="" />
+                    <img src={aztec} alt="" />
                 </div>
 
             </div>
