@@ -2,19 +2,18 @@ import React from 'react'
 import './Sponsers.css'
 import { Link } from 'react-router-dom'
 import Navbar from '../Navbar/Navbar'
+import Footer from '../Footer/Footer'
+
+import { sponsers } from '../../assets/Sponsers/sponsers.js'
 
 function Sponsers() {
     return (
         <div className='container'>
             <div className="leftContainer homeLeft">
-                {/* <div className="navBar">
-                    <Link to={"/"}>HOME</Link>
-                    <Link to={"/events"}>EVENT</Link>
-                    <Link to={"/sponsers"}>SPONSERS</Link>
-                </div> */}
+
                 <Navbar />
                 <h1 className="theTitle sponsershipTitle">
-                   sponsers
+                    sponsors
                 </h1>
 
                 <div className="overlay">
@@ -24,7 +23,18 @@ function Sponsers() {
             </div>
 
             <div className="rightContainer">
+                <div className="sponserLogoGrid">
+
+                    {sponsers.map((sponser) => {
+                        return (
+                            <div className="sponserCard">
+                                <img src={sponser} alt="" />
+                            </div>
+                        );
+                    })}
+                </div>
             </div>
+            <Footer />
 
         </div>
 

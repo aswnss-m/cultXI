@@ -12,6 +12,7 @@ function Day1() {
  
   return (
     <div className='eventDay'>
+      
       <div className="proshowEvent" onClick={() => handleClick(day1[0].link)}>
         <img src={day1[0].poster} className='proshowPoster' alt='Proshow' />
       </div>

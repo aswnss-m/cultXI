@@ -10,7 +10,7 @@ function Navbar() {
     <div className="navBar">
         <Link to={"/"}>HOME</Link>
         <Link to={"/events"}>EVENT</Link>
-        <Link to={"/sponsers"}>SPONSERS</Link>
+        <Link to={"/sponsers"}>SPONSORS</Link>
     </div>
 </div>
   )

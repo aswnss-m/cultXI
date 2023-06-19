@@ -106,3 +106,43 @@ text-align: center;
 .video{
     width: 100%;
 }
+
+.aboutGroup{
+    padding-bottom: 10%;
+}
+.datePlace,.date{
+    font-family: 'PrettyBoy-SemiBold';
+    font-size: 1.5rem;
+    padding-top:2em;
+    /* text-decoration:underline; */
+    color: #FEEBD7 ;
+    
+}
+.date {
+    color: #FEEBD7 ;
+    /* text-shadow: 0.5px 0.5px 0px #FEEBD7; */
+}
+@media screen and (max-width: 920px) {
+    .aboutGroup{
+        padding-top: 7em
+    }
+
+    
+}
+
+@media screen and (max-width: 680px) {
+    .datePlace{
+        padding-bottom: 2em;
+    }
+    /* .countDown{
+        padding-bottom: 2em;
+    } */
+    .aboutGroup{
+        padding-top: 9em
+    }
+    .aboutTitle{
+        display: none;
+    }
+
+}
+    

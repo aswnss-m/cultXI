@@ -1,0 +1,23 @@
+.sponserLogoGrid img{
+    width: 50%;
+}
+.sponserLogoGrid{
+    box-sizing: border-box;
+    padding: 5em;
+    gap: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 768px){
+    .sponserLogoGrid{
+        padding: 4em;
+        grid: none;
+        display: flex;
+        flex-direction:column;
+    }
+    .sponserLogoGrid img{
+        width: 100%;
+    }
+}
+    

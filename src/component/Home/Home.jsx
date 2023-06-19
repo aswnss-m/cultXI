@@ -73,14 +73,7 @@ function Home() {
 
         <div className="container HomeContainer">
             <div className="leftContainer homeLeft">
-                {/* <div className="navNmusic">
-                    <div className="navBar">
-                        <Link to={"/"}>HOME</Link>
-                        <Link to={"/events"}>EVENT</Link>
-                        <Link to={"/sponsers"}>SPONSERS</Link>
-                    </div>
-                    <Music />
-                </div> */}
+
                 <Navbar />
 
                 <h1 className="theTitle animate__animated animate__fadeIn   ">
@@ -94,6 +87,7 @@ function Home() {
             </div>
 
             <div className="rightContainer homeRightContainer">
+               
               <span className="countDownPlacer">
                   <CountDown   isBirthday={isBirthday} days={days} hours={hours} minutes={minutes} seconds={seconds}  />
               </span>

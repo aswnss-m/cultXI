@@ -6,7 +6,7 @@ function About() {
     return (
         <div className='aboutContainer'>
             <div className="aboutGroup">
-                <h1>About</h1>
+                <h1 className='aboutTitle'>About</h1>
                 <p className='big-font'>Join us for <span className="bigger-font">Cult 11</span> , the electrifying techno-cultural extravaganza presented by a dynamic and creative team of engineers. For over a decade, Cult A Way has ignited hearts with <span className="bigger-font">pride</span> and exhilaration. This year, we embark on a new chapter, creating unforgettable moments and a vibrant celebration. Get ready for a sensational experience as we ignite the <span className="bigger-font">legacy</span>.
                       Sree Chitra Thirunal College of Engineering, Thiruvananthapuram, has been a trailblazer in engineering education since 1995. As one of the top engineering institutions in Kerala, SCT boasts a strong alumni network, making a mark in various fields worldwide. Join us as SCT students unveil the <span className="bigger-font">11th edition</span> of <span className="bigger-font">Cult A Way</span>, a spectacular showcase of <span className="bigger-font">talent</span> and tradition.</p>
             </div>
@@ -21,7 +21,7 @@ function About() {
                     style={
                         {
                             border: 0,
-                            height: "500px",
+                            height: "250px",
                             width : "100%",
                             frameborder: 0,
                             allowfullscreen: "",
