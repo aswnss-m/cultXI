@@ -10,16 +10,18 @@ import aztec from "../.././assets/aztec.svg"
 function Sponsers() {
     return (
         <div className='container'>
-            <div className="leftContainer homeLeft">
+            <div className="leftContainer homeLeft sponserLeft">
 
                 <Navbar />
                 <h1 className="theTitle sponsershipTitle">
                     sponsors
                 </h1>
+                
 
                 <div className="overlay">
                     <img src={aztec} alt="" />
                 </div>
+
 
             </div>
 
