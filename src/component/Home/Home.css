@@ -1,0 +1,148 @@
+.HomeContainer {
+    font-family: "PrettyBoy-SemiBold";
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    height: 100vh;
+    max-width: 100vw;
+    overflow-y: hidden;
+
+
+}
+
+.HomeContainer,
+h1 {
+    font-family: 'PrettyBoy-SemiBold';
+}
+
+.homeLeft {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.big-font{
+    font-size: 1.3rem;
+}
+.bigger-font {
+    display: inline;
+    font-family: "PrettyBoy-SemiBold";
+    font-weight: bold;
+    /* play animation enlarge once */
+    animation: enlarge 2s ease-in 1 forwards; /* Added 'forwards' value */
+}
+
+@keyframes enlarge {
+    from {
+        color: var(--bg-white);
+        font-size: 1.3rem;
+    }
+    to {
+        color: #FF3C3C;
+        font-size: 3rem;
+    }
+}
+/* FOR countdown */
+
+
+
+
+#countDownUl>li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1.2em;
+    text-transform: uppercase;
+    background: #FEEBD7;
+    width: 160px;
+    height: fit-content;
+    border: 3px solid #000000;
+    box-shadow: 4px 4px 0px #FF3C3C;
+    border-radius: 6px; 
+    margin: 4px;
+
+    text-align: center;
+    
+    color: #282828;
+    font-family: "PrettyBoy-SemiBold";
+}
+
+#countDownUl>li span {
+    display: block;
+    font-size: 4.5rem;
+    font-family: "PrettyBoy-SemiBold";
+
+
+ 
+}
+/* .onlyCountdown {
+    width: 100%;
+    display: grid;
+place-items: center;
+text-align: center;
+
+} */
+.homeRightContainer{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.countDownPlacer{
+    place-items: center;
+    text-align: center;
+    min-height: 80vh;
+    display: grid;
+}
+
+.aboutContainer{
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 0 1em;
+    text-align: center;
+    margin-top: 1em;
+    width: min(800px,100%);
+}
+.video{
+    width: 100%;
+}
+
+.aboutGroup{
+    padding-bottom: 10%;
+}
+.datePlace,.date{
+    font-family: 'PrettyBoy-SemiBold';
+    font-size: 1.5rem;
+    padding-top:2em;
+    /* text-decoration:underline; */
+    color: #FEEBD7 ;
+    
+}
+.date {
+    color: #FEEBD7 ;
+    /* text-shadow: 0.5px 0.5px 0px #FEEBD7; */
+}
+@media screen and (max-width: 920px) {
+    .aboutGroup{
+        padding-top: 7em
+    }
+
+    
+}
+
+@media screen and (max-width: 680px) {
+    .datePlace{
+        padding-bottom: 2em;
+    }
+    /* .countDown{
+        padding-bottom: 2em;
+    } */
+    .aboutGroup{
+        padding-top: 9em
+    }
+    .aboutTitle{
+        display: none;
+    }
+
+}
+    

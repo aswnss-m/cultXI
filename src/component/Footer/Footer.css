@@ -1,0 +1,22 @@
+.footer{
+    display: grid;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    z-index: 10000;
+    padding: .5em 0;
+    font-size: smaller;
+    place-items: center;
+    width: fit-content;
+    height: 5vh;
+    background: #000;
+    font-weight: thin;
+    justify-items: end;
+    padding-inline: 4em;
+    border-radius: 2px;
+/* font-family:sans-serif !important;   */
+}
+.footer a{
+    font-family:"PrettyBoy-SemiBold" !important;
+    color:#FEEBD7;
+}

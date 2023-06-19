@@ -1,0 +1,245 @@
+:root {
+
+  --bg-white: #ffffff;
+  --off-white-90: #E7E7E7;
+  --off-white-80: #CFCFD0;
+  --off-white-60: #B3B3B3;
+
+  --off-white-50: #878789;
+
+  --bg-black: #000000;
+  --bg-off-black: #101013;
+  --off-black-ash: #666666;
+
+  --bg-color: #170101;
+
+
+
+  --other-yellow: #FDBE6D;
+  --other-blue: #47CBF8;
+  --other-yellowBright: #FEDA75;
+  --other-purple: #D795FF;
+  --other-pink: #FF95BD;
+
+  --other-project: #100006;
+
+  --txt-xxxl: 100px;
+  --txt-xxl: 74px;
+  --txt-xl: 52px;
+  --txt-l: 40px;
+  --txt-ml: 32px;
+  --txt-m: 26px;
+  --txt-mm: 24px;
+  --txt-s: 22px;
+  --txt-xs: 16px;
+  --txt-xxs: 10px;
+
+  --letter-spacing-l: 0.20em;
+  --letter-spacing-s: -0.06em;
+
+}
+
+@font-face {
+  font-family: 'PrettyBoy-SemiBold';
+  src: url(./assets/Fonts/PrettyBoy-SemiBold.otf) format('opentype');
+  /* font-weight: normal;
+  font-style: normal; */
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+* {
+
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  line-height: normal;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+
+  padding: 0;
+  margin: 0;
+  background-color: var(--bg-color);
+  color: var(--off-white-90);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  font-family: "PrettyBoy-SemiBold";
+  color: var(--off-white-90);
+}
+
+.container {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+  grid-template-areas: "left right";
+  grid-template-columns: 0.5fr 1fr;
+}
+
+.rightContainer {
+  grid-area: right;
+  width: 100%;
+  height: 100%;
+
+  background-image: url(./assets/grid.png);
+
+  background-repeat: no-repeat;
+  background-position: 30% 50%;
+  background-size: 260%;
+  z-index: 1;
+  overflow-y: scroll;
+  transition: all 0.5s ease-in-out;
+}
+
+.leftContainer {
+  background-color: rgb(11, 0, 0);
+  padding: 2em 1em 2em 2em;
+  grid-area: left;
+  width: 100%;
+  height: 100%;
+  background-image: url(./assets/caw23.png);
+  background-repeat: no-repeat;
+  background-position: 50% 30%;
+  background-size: 50%;
+  animation: bigLogo 1s ease-in 1 forwards;
+  /* box-shadow: 0px 0px 100px -10px #c30000; */
+  box-shadow: 0px 0px 104px -10px #FF3C3C;
+  z-index: 2;
+  transition: all 0.5s ease-in-out;
+
+}
+
+@keyframes bigLogo {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+  
+.theTitle {
+  font-size: 5.4em;
+  line-height: 90%;
+  /* text-transform: uppercase; */
+  color: #FEEBD7;
+  -webkit-text-stroke: 2.55px #0000;
+  text-shadow: 2px 2px 0px #FF3C3C;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+.navNmusic{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.navBar {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+
+
+}
+
+.navBar a:hover {
+  color: #FF3C3C;
+}
+
+.overlay {
+  position: absolute;
+  /* bottom: 23em; */
+  top: -10em;
+  left: -10em;
+  z-index: -2;
+  /* width: 20%; */
+  animation: rotationAnimation 40s linear infinite;
+}
+
+@keyframes rotationAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.aztec {
+  position: fixed;
+  background-image: url(./assets/aztec.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 3;
+}
+
+.navBar {
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (max-width: 860px) {
+  .theTitle {
+    font-size: 4em;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    grid-template-areas: "left" "right";
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .overlay {
+    /* display: none; */
+    top: -15em;
+    left: -10em;
+  }
+
+  .rightContainer {
+    grid-area: right;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+  }
+
+  .leftContainer {
+    /* background-color: red; */
+    grid-area: left;
+    width: 100%;
+    height: fit-content;
+    background-image: none;
+  }
+
+  .theTitle {
+    padding-top: 1em;
+    font-size: 3em;
+
+  }
+
+
+}

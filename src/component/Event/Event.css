@@ -1,0 +1,58 @@
+.eventLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.eventNav{
+    padding-top: 2em;
+    display: flex;
+    gap: 1em;
+    font-size: 1rem !important;
+    align-self: center;
+}
+.eventNav>li{
+    font-family: 'PrettyBoy-SemiBold';
+    cursor: pointer;
+    transition: all .6s ease-in-out;
+    align-self: center;
+    text-shadow: 1px 1px 0px #FF3C3C !important;
+}
+.eventNav>li:hover{
+    font-size: 1.3rem;
+    transition: all .6s ease-in-out;
+}
+.eventDay{
+    padding: 1em;
+    display: flex;
+    width: 100%;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+}
+.proshowEvent{
+    width: calc((80vmin*4)/5);
+    /* height: calc((80vmin*4)/5); */
+    height: calc((80vmin*5)/5);
+}
+.otherEvents{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+}
+.otherEvent{
+    width: 40vmin;
+    height: 40vmin;
+    background-color: blue;
+}
+.proshowPoster{
+    width: 100%;
+    object-fit: contain;
+}
+.otherEventPoster{
+    width: 100%;
+    object-fit: contain;
+}
