@@ -7,7 +7,7 @@ export function CountDown({
     seconds
 }) {
     return <div className="countDown">
-        <h1 id="headline">{isBirthday ? " CULT-A-AWAY 11" : "The saga Begins in "}</h1>
+        <h1 id="headline">{isBirthday ? " Welcome to " : "The saga Begins in "}</h1>
         {!isBirthday && <div id="countdown">
             <ul id='countDownUl'>
                 <li>
@@ -27,6 +27,11 @@ export function CountDown({
                 <span className="date">June 23 24 25</span> | at Kanakankunnu Palace
             </h3>
         </div>}
-        {isBirthday && <></>}
+        { isBirthday && <div>
+            <div className="cultAWayTitle">
+                <h1 className="cultAWay theTitle">CULT-A-AWAY 11</h1>
+            </div>
+            
+            </div>}
     </div>;
 }

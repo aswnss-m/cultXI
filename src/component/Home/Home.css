@@ -89,9 +89,19 @@ text-align: center;
 .countDownPlacer{
     place-items: center;
     text-align: center;
-    min-height: 80vh;
+    min-height: 100vh;
     display: grid;
+
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    /* height: 300px; */
 }
+
+.toAddScrollSnap {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh; /* Adjust the height as per your requirement */
+  }
 
 .aboutContainer{
     justify-self: center;

@@ -79,14 +79,13 @@ function Home() {
                 <h1 className="theTitle animate__animated animate__fadeIn   ">
                     THE BOHEMIAN SAGA
                 </h1>
-
                 <div className="overlay">
                     <img src="src\assets\aztec.svg" alt="CAW23 Logo" />
                 </div>
 
             </div>
 
-            <div className="rightContainer homeRightContainer">
+            <div className="rightContainer homeRightContainer toAddScrollSnap">
                
               <span className="countDownPlacer">
                   <CountDown   isBirthday={isBirthday} days={days} hours={hours} minutes={minutes} seconds={seconds}  />
