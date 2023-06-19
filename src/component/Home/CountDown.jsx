@@ -29,7 +29,7 @@ export function CountDown({
         </div>}
         { isBirthday && <div>
             <div className="cultAWayTitle">
-                <h1 className="cultAWay theTitle">CULT-A-AWAY 11</h1>
+                <h1 className="cultAWay theTitle">CULT A AWAY 11</h1>
             </div>
             
             </div>}

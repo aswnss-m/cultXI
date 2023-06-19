@@ -88,8 +88,25 @@ h1 {
     display: grid;
 
 }
+.toAddScrollSnap {
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+  }
+  
+.toAddScrollSnap > * {
+    transition: all 1s ease-in-out;
+    scroll-snap-align: start;
+    scroll-behavior: smooth;
+}
+
+
 @media screen and (min-width:1200px) {
     .countDownPlacer{
+        height: 100vh;
+    }
+    .toAddScrollSnap{
+        scroll-snap-type: y mandatory;
         height: 100vh;
     }
     
@@ -127,6 +144,10 @@ h1 {
 @media screen and (max-width: 680px) {
     .aboutTitle{
         display: none;
+    }
+    .toAddScrollSnap > * {
+        scroll-snap-align:none;
+        scroll-behavior: smooth;
     }
 
 }

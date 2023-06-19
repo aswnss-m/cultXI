@@ -7,6 +7,8 @@ import Music from '../Music/Music';
 import About from './About';
 import Navbar from '../Navbar/Navbar';
 
+import aztec from "../.././assets/aztec.svg"
+
 
 function Home() {
 
@@ -73,16 +75,14 @@ function Home() {
 
         <div className="container HomeContainer">
             <div className="leftContainer homeLeft">
-
                 <Navbar />
 
                 <h1 className="theTitle animate__animated animate__fadeIn   ">
                     THE BOHEMIAN SAGA
                 </h1>
                 <div className="overlay">
-                    <img src="src\assets\aztec.svg" alt="CAW23 Logo" />
+                    <img src={aztec}alt="CAW23 Logo" />
                 </div>
-
             </div>
 
             <div className="rightContainer homeRightContainer toAddScrollSnap">
