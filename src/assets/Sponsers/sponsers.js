@@ -1,10 +1,10 @@
 import ramachandran from './ramachandrans.png';
-import ssw from './ssw.png';
 import tripShopping from './TripShopin.png';
+import Explorworld from './Explorworld.jpg'
 
 
 export const sponsers = [
     ramachandran,
-    ssw,
     tripShopping,
+    Explorworld,
 ]
