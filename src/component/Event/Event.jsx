@@ -7,6 +7,7 @@ import Day3 from './pages/Day3';
 import All from './pages/All';
 import Navbar from '../Navbar/Navbar';
 import aztec from "../.././assets/aztec.svg"
+import Footer from '../Footer/Footer';
 function Event() {
   const navigate = useNavigate();
 
@@ -38,6 +39,7 @@ function Event() {
           <Route path="/day3" element={<Day3 />} />
         </Routes>
       </div>
+      <Footer/>
     </div>
   );
 }
