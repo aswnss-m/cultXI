@@ -32,9 +32,18 @@
     align-items: center;
 }
 .proshowEvent{
-    width: calc((80vmin*4)/5);
+    /* width: calc((80vmin*4)/5); */
     /* height: calc((80vmin*4)/5); */
-    height: calc((80vmin*5)/5);
+    /* height: calc((80vmin*5)/5); */
+    max-width: 60vmin;
+}
+
+.allProShows{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    padding: 2em;
+    gap: 1em;
 }
 .otherEvents{
     display: flex;
@@ -55,4 +64,21 @@
 .otherEventPoster{
     width: 100%;
     object-fit: contain;
+}
+
+
+@media screen and (max-width:540px) {
+    .proshowEvent{
+        max-width: 70vmin;
+        
+    }
+    .allProShows{
+        grid: none;
+      
+        box-sizing: border-box;
+        padding: 2em;
+        /* gap: 1em; */
+    }
+
+    
 }

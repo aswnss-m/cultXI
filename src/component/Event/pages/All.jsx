@@ -21,15 +21,19 @@ function All() {
         fontSize: '3rem'
       }}>Proshows</h1>
       <div className='eventDay'>
-        <div className="proshowEvent" onClick={() => handleClick(day1[0].link)}>
-          <img src={day1[0].poster} className='proshowPoster' alt='Proshow' />
+        <div className="allProShows">
+            <img src={day1[0].poster} className='proshowPoster' alt='Proshow' onClick={() => handleClick(day1[0].link)} />
+            <img src={day2[0].poster} className='proshowPoster' alt='Proshow' onClick={() => handleClick(day2[0].link)} />
+            <img src={day2[1].poster} className='proshowPoster' alt='Proshow' onClick={() => handleClick(day2[1].link)}/>
+            <img src={day3[0].poster} className='proshowPoster' alt='Proshow' onClick={() => handleClick(day3[0].link)}/>
+          {/* <div className="proshowEvent" onClick={() => handleClick(day1[0].link)}>
+          </div>
+          <div className="proshowEvent" onClick={() => handleClick(day1[0].link)}>
+          </div>
+          <div className="proshowEvent" onClick={() => handleClick(day1[0].link)}>
+          </div> */}
         </div>
-        <div className="proshowEvent" onClick={() => handleClick(day1[0].link)}>
-          <img src={day2[0].poster} className='proshowPoster' alt='Proshow' />
-        </div>
-        <div className="proshowEvent" onClick={() => handleClick(day1[0].link)}>
-          <img src={day3[0].poster} className='proshowPoster' alt='Proshow' />
-        </div>
+
         <div className="otherEvents">
           <h1 className='theTitle' style={{
             display: 'flex',
@@ -44,7 +48,7 @@ function All() {
               <img src={link.poster} alt="" className='otherEventPoster' />
             </div>
           ))}
-          {day2.slice(1).map((link) => (
+          {day2.slice(2).map((link) => (
             <div className="otherEvent" key={link.id} onClick={() => handleClick(link.link)}>
               <img src={link.poster} alt="" className='otherEventPoster' />
             </div>

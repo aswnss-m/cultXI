@@ -14,6 +14,14 @@ function Day1() {
     <div className='eventDay'>
       
       <div className="proshowEvent" onClick={() => handleClick(day1[0].link)}>
+      <h1 className='theTitle' style={{
+        display: 'flex',
+        width: '100%',
+        textAlign: 'center',
+        margin: '.2em 0',
+        justifyContent: 'center',
+        fontSize: '3rem'
+      }}>on June 23</h1>
         <img src={day1[0].poster} className='proshowPoster' alt='Proshow' />
       </div>
       <div className="otherEvents">
