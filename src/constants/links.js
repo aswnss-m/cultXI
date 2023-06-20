@@ -14,7 +14,7 @@ export const day1 = [
     {
         // proshow
       id: 1,
-      link: 'https://in.bookmyshow.com/events/cult-a-way-presents-sonic-bound/ET00361356',
+      link: 'https://bit.ly/CAW-Day1',
       poster: getImageSrc('https://drive.google.com/file/d/11jaBTgPkBAGC9bppcNSZpTlvdNSqD22s/view?usp=drive_link'),
 
     },
@@ -33,7 +33,7 @@ export const day1 = [
 export const day2 = [
   {
     id:0,
-    link:"#",
+    link:"https://bit.ly/CAW-Day2",
     poster:getImageSrc('https://drive.google.com/file/d/1-Fk0FxiGsutGWsITKebYLnZ3cwnmeYzy/view?usp=drive_link')
   },
     {
