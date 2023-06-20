@@ -14,15 +14,20 @@ export const day1 = [
     {
         // proshow
       id: 1,
-      link: 'https://bit.ly/CAW-Day1',
+      link: '#',
       poster: getImageSrc('https://drive.google.com/file/d/11jaBTgPkBAGC9bppcNSZpTlvdNSqD22s/view?usp=drive_link'),
 
     },
-    // {
-    //   id: 2,
-    //   link: '#',
-    //   poster : getImageSrc('https://drive.google.com/file/d/1RdlNHEPfSTFkSNe6PdYBgijlFvY7tkjf/view?usp=drive_link')
-    // },
+    {
+      id: 2,
+      link: '',
+      poster : getImageSrc('https://drive.google.com/file/d/1aLW1qwwF7-xK0SA6rYMwxNaNjgej5imJ/view?usp=drive_link')
+    },
+    {
+      id: 3,
+      link: '',
+      poster : getImageSrc('https://drive.google.com/file/d/1RdlNHEPfSTFkSNe6PdYBgijlFvY7tkjf/view?usp=drive_link')
+    },
     // {
     //   id: 3,
     //   link: '#',
@@ -33,7 +38,7 @@ export const day1 = [
 export const day2 = [
   {
     id:0,
-    link:"https://bit.ly/CAW-Day2",
+    link:"#",
     poster:getImageSrc('https://drive.google.com/file/d/1-Fk0FxiGsutGWsITKebYLnZ3cwnmeYzy/view?usp=drive_link')
   },
     {
@@ -57,6 +62,11 @@ export const day2 = [
       id: 4,
       link: '#',
       poster : getImageSrc('https://drive.google.com/file/d/12-T9Y_kDL0NzfvzlOaQznmU-x8NgOmay/view?usp=drive_link')
+    },
+    {
+      id: 5,
+      link: '#',
+      poster : getImageSrc('https://drive.google.com/file/d/1XDUN0fOO_s90hj8pf68hhP01rsTa_ymR/view?usp=drive_link')
     },
 
   ];
@@ -87,6 +97,11 @@ export const day3 = [
       id: 5,
       link: ' https://www.yepdesk.com/embed/buy-tickets/648c790f46e0fb0001e69e33/private/h00prg2qkl',
       poster : getImageSrc('https://drive.google.com/file/d/12Pps9tVhjF6T-oK8YmvqltWAwuRiIBP6/view?usp=drive_link')
+    },
+    {
+      id: 6,
+      link: ' https://www.yepdesk.com/embed/buy-tickets/648c790f46e0fb0001e69e33/private/h00prg2qkl',
+      poster : getImageSrc('https://drive.google.com/file/d/18lpYKYTamHWdQM6BwaqpiNbwJmxQyjIy/view?usp=drive_link')
     },
     
   ];

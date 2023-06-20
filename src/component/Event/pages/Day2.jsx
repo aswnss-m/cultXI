@@ -9,18 +9,18 @@ function Day2() {
     window.open(link, '_blank');
   };
 
- 
+
   return (
     <div className='eventDay'>
       <div className="proshowEvent" onClick={() => handleClick(day2[0].link)}>
-      <h1 className='theTitle' style={{
-        display: 'flex',
-        width: '100%',
-        textAlign: 'center',
-        margin: '.2em 0',
-        justifyContent: 'center',
-        fontSize: '3rem'
-      }}>on June 24</h1>
+        <h1 className='theTitle' style={{
+          display: 'flex',
+          width: '100%',
+          textAlign: 'center',
+          margin: '.2em 0',
+          justifyContent: 'center',
+          fontSize: '3rem'
+        }}>on June 24</h1>
         <img src={day2[0].poster} className='proshowPoster' alt='Proshow' />
         <img src={day2[1].poster} className='proshowPoster' alt='Proshow' />
       </div>
