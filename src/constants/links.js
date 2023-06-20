@@ -39,7 +39,7 @@ export const day2 = [
     {
         // proshow
       id: 1,
-      link: '#',
+      link: 'https://in.bookmyshow.com/events/cult-a-way-presents-sonic-bound/ET00361356',
       poster: getImageSrc('https://drive.google.com/file/d/11x7PNKEL4LoQ-tlOlrIgalVeqducxtSM/view?usp=drive_link'),
 
     },

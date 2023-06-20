@@ -1,6 +1,6 @@
 .footer{
     display: grid;
-    position: absolute;
+    position: fixed;
     bottom: 0%;
     right: 0%;
     z-index: 10000;
@@ -15,9 +15,21 @@
     padding-inline: 4em;
     border-radius: 2px;
     opacity: 60%;
+    overflow-y: hidden;
 /* font-family:sans-serif !important;   */
 }
 .footer a{
     font-family:"PrettyBoy-SemiBold" !important;
     color:#FEEBD7;
 }
+@media screen and (max-width: 768px) {
+    .footer{
+        font-size: 0.7em;
+        height: 3.5vh;
+        padding-inline: 2em;
+        display:none;
+        /* padding-bottom: 2em; */
+    }
+
+}
+    

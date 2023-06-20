@@ -38,8 +38,9 @@ function Event() {
           <Route path="/day2" element={<Day2 />} />
           <Route path="/day3" element={<Day3 />} />
         </Routes>
+   
+      {/* <Footer/> */}
       </div>
-      <Footer/>
     </div>
   );
 }
