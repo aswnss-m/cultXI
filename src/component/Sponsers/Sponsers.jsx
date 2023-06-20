@@ -37,7 +37,7 @@ function Sponsers() {
                     })}
                 </div>
             </div>
-            <Footer />
+            {/* <Footer /> */}
 
         </div>
 
