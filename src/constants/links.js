@@ -14,7 +14,7 @@ export const day1 = [
     {
         // proshow
       id: 1,
-      link: '#',
+      link: 'https://in.bookmyshow.com/events/cult-a-way-presents-sonic-bound/ET00361356',
       poster: getImageSrc('https://drive.google.com/file/d/11jaBTgPkBAGC9bppcNSZpTlvdNSqD22s/view?usp=drive_link'),
 
     },
@@ -39,18 +39,18 @@ export const day2 = [
     {
         // proshow
       id: 1,
-      link: 'https://in.bookmyshow.com/events/cult-a-way-presents-sonic-bound/ET00361356',
+      link: '#',
       poster: getImageSrc('https://drive.google.com/file/d/11x7PNKEL4LoQ-tlOlrIgalVeqducxtSM/view?usp=drive_link'),
 
     },
     {
       id: 2,
-      link: '#',
+      link: 'https://www.yepdesk.com/embed/buy-tickets/648c781d46e0fb0001e69a47/private/781jsnl1dm',
       poster : getImageSrc('https://drive.google.com/file/d/1253lzhMKSyZT6TpQRtm6jAk3ZN7foZYQ/view?usp=drive_link')
     },
     {
       id: 3,
-      link: '#',
+      link: 'https://www.yepdesk.com/embed/buy-tickets/648c781d46e0fb0001e69a47/private/781jsnl1dm',
       poster : getImageSrc('https://drive.google.com/file/d/11y5HP7ofw1EW1vIZPdNKYlmTgO4cTgam/view?usp=drive_link')
     },
     {
@@ -64,7 +64,7 @@ export const day3 = [
     {
         // proshow
       id: 1,
-      link: '#',
+      link: 'https://in.bookmyshow.com/events/cult-a-way-presents-sonic-bound/ET00361356',
       poster: getImageSrc('https://drive.google.com/file/d/12UCXVuR9P1d_eYRD4oVx05lJH1N1-0q8/view?usp=drive_link'),
 
     },
@@ -80,12 +80,12 @@ export const day3 = [
     },
     {
       id: 4,
-      link: '#',
+      link: 'https://www.yepdesk.com/embed/buy-tickets/648c799c46e0fb0001e6a759/private/1lni8mghos',
       poster : getImageSrc('https://drive.google.com/file/d/12PRHHu07QJTEWAPgzlgY2n3Mwrt_5dxU/view?usp=drive_link')
     },
     {
       id: 5,
-      link: '#',
+      link: ' https://www.yepdesk.com/embed/buy-tickets/648c790f46e0fb0001e69e33/private/h00prg2qkl',
       poster : getImageSrc('https://drive.google.com/file/d/12Pps9tVhjF6T-oK8YmvqltWAwuRiIBP6/view?usp=drive_link')
     },
     
