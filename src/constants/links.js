@@ -111,7 +111,7 @@ export const day3 = [
     {
       id: 5,
       link: 'https://www.yepdesk.com/embed/buy-tickets/6492a60646e0fb0001fbba4e/private/73q5q8r0oq',
-      poster : getImageSrc('https://drive.google.com/file/d/129rc_guW6yvBnNfN4U8_ZH_t0TrZmPLN/view?usp=drive_link')
+      poster : getImageSrc('https://i.ibb.co/GQfzczm/anime-painting.jpg')
     },
   
     {
