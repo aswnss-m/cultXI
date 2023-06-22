@@ -6,15 +6,23 @@ import Day2 from './pages/Day2';
 import Day3 from './pages/Day3';
 import All from './pages/All';
 import Navbar from '../Navbar/Navbar';
+<<<<<<< HEAD
 import aztec from "../.././assets/aztec.svg"
 import Footer from '../Footer/Footer';
+=======
+
+>>>>>>> a9b187b84f5550b1ed11bba15359a8e605f50746
 function Event() {
   const navigate = useNavigate();
 
   return (
     <div className="container">
       <div className="leftContainer eventLeft">
+<<<<<<< HEAD
         <Navbar />
+=======
+        <Navbar/>
+>>>>>>> a9b187b84f5550b1ed11bba15359a8e605f50746
 
         <div className="link">
           <h1 className="theTitle" onClick={() => { navigate("/events") }}>
@@ -27,7 +35,11 @@ function Event() {
           </ul>
         </div>
         <div className="overlay">
+<<<<<<< HEAD
           <img src={aztec} alt="" />
+=======
+          <img src="src\assets\aztec.svg" alt="" />
+>>>>>>> a9b187b84f5550b1ed11bba15359a8e605f50746
         </div>
 
       </div>
@@ -38,8 +50,11 @@ function Event() {
           <Route path="/day2" element={<Day2 />} />
           <Route path="/day3" element={<Day3 />} />
         </Routes>
+<<<<<<< HEAD
 
         <Footer/>
+=======
+>>>>>>> a9b187b84f5550b1ed11bba15359a8e605f50746
       </div>
     </div>
   );

@@ -11,6 +11,7 @@ function Day1() {
 
  
   return (
+<<<<<<< HEAD
     // <div className='eventDay'>
       
     //   <div className="proshowEvent" onClick={() => handleClick(day1[0].link)}>
@@ -52,6 +53,21 @@ function Day1() {
        ))}
     </div>
   </div>
+=======
+    <div className='eventDay'>
+      
+      <div className="proshowEvent" onClick={() => handleClick(day1[0].link)}>
+        <img src={day1[0].poster} className='proshowPoster' alt='Proshow' />
+      </div>
+      <div className="otherEvents">
+        {day1.slice(1).map((link) => (
+          <div className="otherEvent" key={link.id} onClick={() => handleClick(link.link)}>
+            <img src={link.poster} alt="" className='otherEventPoster' />
+          </div>
+        ))}
+      </div>
+    </div>
+>>>>>>> a9b187b84f5550b1ed11bba15359a8e605f50746
   );
 }
 

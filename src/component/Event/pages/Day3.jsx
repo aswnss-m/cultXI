@@ -13,6 +13,7 @@ function Day3() {
   return (
     <div className='eventDay'>
       <div className="proshowEvent" onClick={() => handleClick(day3[0].link)}>
+<<<<<<< HEAD
       <h1 className='theTitle' style={{
         display: 'flex',
         width: '100%',
@@ -21,6 +22,8 @@ function Day3() {
         justifyContent: 'center',
         fontSize: '3rem'
       }}>on june 25</h1>
+=======
+>>>>>>> a9b187b84f5550b1ed11bba15359a8e605f50746
         <img src={day3[0].poster} className='proshowPoster' alt='Proshow' />
       </div>
       <div className="otherEvents">

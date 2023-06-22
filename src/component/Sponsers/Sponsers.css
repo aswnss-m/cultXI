@@ -7,7 +7,10 @@
     gap: 2em;
     display: grid;
     grid-template-columns: 1fr 1fr;
+<<<<<<< HEAD
     min-height: 100%;
+=======
+>>>>>>> a9b187b84f5550b1ed11bba15359a8e605f50746
 }
 
 @media screen and (max-width: 768px){
@@ -20,10 +23,13 @@
     .sponserLogoGrid img{
         width: 100%;
     }
+<<<<<<< HEAD
     .sponsershipTitle{
         padding-bottom: 0.89em;
     
     }
 
+=======
+>>>>>>> a9b187b84f5550b1ed11bba15359a8e605f50746
 }
     

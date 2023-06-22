@@ -4,12 +4,18 @@ import './Home.css'
 import { Link } from 'react-router-dom'
 import 'animate.css';
 import Music from '../Music/Music';
+<<<<<<< HEAD
 import Footer from '../Footer/Footer';
 import About from './About';
 import Navbar from '../Navbar/Navbar';
 
 import aztec from "../.././assets/aztec.svg"
 
+=======
+import About from './About';
+import Navbar from '../Navbar/Navbar';
+
+>>>>>>> a9b187b84f5550b1ed11bba15359a8e605f50746
 
 function Home() {
 
@@ -33,7 +39,11 @@ function Home() {
         let mm = String(today.getMonth() + 1).padStart(2, '0');
         let yyyy = today.getFullYear();
         let nextYear = yyyy + 1;
+<<<<<<< HEAD
         let dayMonth = '06/23/';
+=======
+        let dayMonth = '06/24/';
+>>>>>>> a9b187b84f5550b1ed11bba15359a8e605f50746
         let birthday = dayMonth + yyyy;
 
         today = mm + '/' + dd + '/' + yyyy;
@@ -76,24 +86,41 @@ function Home() {
 
         <div className="container HomeContainer">
             <div className="leftContainer homeLeft">
+<<<<<<< HEAD
+=======
+
+>>>>>>> a9b187b84f5550b1ed11bba15359a8e605f50746
                 <Navbar />
 
                 <h1 className="theTitle animate__animated animate__fadeIn   ">
                     THE BOHEMIAN SAGA
                 </h1>
+<<<<<<< HEAD
                 <div className="overlay">
                     <img src={aztec}alt="CAW23 Logo" />
                 </div>
             </div>
 
             {/* <div className="rightContainer homeRightContainer toAddScrollSnap"> */}
+=======
+
+                <div className="overlay">
+                    <img src="src\assets\aztec.svg" alt="CAW23 Logo" />
+                </div>
+
+            </div>
+
+>>>>>>> a9b187b84f5550b1ed11bba15359a8e605f50746
             <div className="rightContainer homeRightContainer">
                
               <span className="countDownPlacer">
                   <CountDown   isBirthday={isBirthday} days={days} hours={hours} minutes={minutes} seconds={seconds}  />
               </span>
               <About />
+<<<<<<< HEAD
               <Footer />
+=======
+>>>>>>> a9b187b84f5550b1ed11bba15359a8e605f50746
             </div>
         </div>
     )
