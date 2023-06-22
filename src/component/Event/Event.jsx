@@ -14,7 +14,7 @@ function Event() {
   return (
     <div className="container">
       <div className="leftContainer eventLeft">
-        <Navbar/>
+        <Navbar />
 
         <div className="link">
           <h1 className="theTitle" onClick={() => { navigate("/events") }}>
@@ -38,8 +38,8 @@ function Event() {
           <Route path="/day2" element={<Day2 />} />
           <Route path="/day3" element={<Day3 />} />
         </Routes>
-   
-      {/* <Footer/> */}
+
+        <Footer/>
       </div>
     </div>
   );

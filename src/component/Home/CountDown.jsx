@@ -24,7 +24,7 @@ export function CountDown({
                 </li>
             </ul>
             <h3 className="datePlace">
-                <span className="date">June 23 24 25</span> | at Kanakankunnu Palace
+                <span className="date">June 23 24 25</span> | at Kanakakunnu Palace
             </h3>
         </div>}
         { isBirthday && <div>

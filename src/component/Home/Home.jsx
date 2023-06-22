@@ -4,6 +4,7 @@ import './Home.css'
 import { Link } from 'react-router-dom'
 import 'animate.css';
 import Music from '../Music/Music';
+import Footer from '../Footer/Footer';
 import About from './About';
 import Navbar from '../Navbar/Navbar';
 
@@ -32,7 +33,7 @@ function Home() {
         let mm = String(today.getMonth() + 1).padStart(2, '0');
         let yyyy = today.getFullYear();
         let nextYear = yyyy + 1;
-        let dayMonth = '06/24/';
+        let dayMonth = '06/23/';
         let birthday = dayMonth + yyyy;
 
         today = mm + '/' + dd + '/' + yyyy;
@@ -85,12 +86,14 @@ function Home() {
                 </div>
             </div>
 
-            <div className="rightContainer homeRightContainer toAddScrollSnap">
+            {/* <div className="rightContainer homeRightContainer toAddScrollSnap"> */}
+            <div className="rightContainer homeRightContainer">
                
               <span className="countDownPlacer">
                   <CountDown   isBirthday={isBirthday} days={days} hours={hours} minutes={minutes} seconds={seconds}  />
               </span>
               <About />
+              <Footer />
             </div>
         </div>
     )
