@@ -85,7 +85,8 @@ function Home() {
                 </div>
             </div>
 
-            <div className="rightContainer homeRightContainer toAddScrollSnap">
+            {/* <div className="rightContainer homeRightContainer toAddScrollSnap"> */}
+            <div className="rightContainer homeRightContainer">
                
               <span className="countDownPlacer">
                   <CountDown   isBirthday={isBirthday} days={days} hours={hours} minutes={minutes} seconds={seconds}  />
