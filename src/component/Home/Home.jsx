@@ -33,7 +33,7 @@ function Home() {
         let mm = String(today.getMonth() + 1).padStart(2, '0');
         let yyyy = today.getFullYear();
         let nextYear = yyyy + 1;
-        let dayMonth = '06/24/';
+        let dayMonth = '06/23/';
         let birthday = dayMonth + yyyy;
 
         today = mm + '/' + dd + '/' + yyyy;
