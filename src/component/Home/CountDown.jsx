@@ -1,4 +1,5 @@
 import React from "react";
+import {Zoom} from "react-awesome-reveal"
 export function CountDown({
     isBirthday,
     days,
@@ -29,7 +30,10 @@ export function CountDown({
         </div>}
         { isBirthday && <div>
             <div className="cultAWayTitle">
-                <h1 className="cultAWay theTitle">CULT A AWAY 11</h1>
+                    <Zoom cascade damping={1e-1}>
+                        <h1 className="cultAWay theTitle">CULT A AWAY '23</h1>
+                        <h2>11th Edition</h2>
+                    </Zoom>
             </div>
             
             </div>}

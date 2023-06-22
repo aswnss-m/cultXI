@@ -2,8 +2,8 @@ import  {CountDown}  from './CountDown';
 import React, { useState, useEffect } from 'react';
 import './Home.css'
 import { Link } from 'react-router-dom'
+import {Fade} from "react-awesome-reveal"
 import 'animate.css';
-import Music from '../Music/Music';
 import Footer from '../Footer/Footer';
 import About from './About';
 import Navbar from '../Navbar/Navbar';
