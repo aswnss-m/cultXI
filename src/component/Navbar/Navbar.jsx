@@ -11,10 +11,7 @@ function Navbar() {
         <Link to={"/"}>HOME</Link>
         <Link to={"/events"}>EVENT</Link>
         <Link to={"/sponsers"}>SPONSORS</Link>
-<<<<<<< HEAD
         <Link to={"/schedule"} >SCHEDULE</Link>
-=======
->>>>>>> a9b187b84f5550b1ed11bba15359a8e605f50746
     </div>
 </div>
   )

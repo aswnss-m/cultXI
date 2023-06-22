@@ -9,7 +9,6 @@ function Day2() {
     window.open(link, '_blank');
   };
 
-<<<<<<< HEAD
 
   return (
     <div className='eventDay'>
@@ -27,16 +26,6 @@ function Day2() {
       </div>
       <div className="otherEvents">
         {day2.slice(2).map((link) => (
-=======
- 
-  return (
-    <div className='eventDay'>
-      <div className="proshowEvent" onClick={() => handleClick(day2[0].link)}>
-        <img src={day2[0].poster} className='proshowPoster' alt='Proshow' />
-      </div>
-      <div className="otherEvents">
-        {day2.slice(1).map((link) => (
->>>>>>> a9b187b84f5550b1ed11bba15359a8e605f50746
           <div className="otherEvent" key={link.id} onClick={() => handleClick(link.link)}>
             <img src={link.poster} alt="" className='otherEventPoster' />
           </div>

@@ -75,29 +75,15 @@ h1 {
 
  
 }
-<<<<<<< HEAD
 
 .homeRightContainer{
     display: grid;
     grid-template-rows:1fr 2fr;
     gap: 1em;
-=======
-/* .onlyCountdown {
-    width: 100%;
-    display: grid;
-place-items: center;
-text-align: center;
-
-} */
-.homeRightContainer{
-    display: grid;
-    grid-template-rows: auto auto;
->>>>>>> a9b187b84f5550b1ed11bba15359a8e605f50746
 }
 .countDownPlacer{
     place-items: center;
     text-align: center;
-<<<<<<< HEAD
     /* height: 100%; */
     display: grid;
 
@@ -125,12 +111,6 @@ text-align: center;
     }
     
 }
-=======
-    min-height: 80vh;
-    display: grid;
-}
-
->>>>>>> a9b187b84f5550b1ed11bba15359a8e605f50746
 .aboutContainer{
     justify-self: center;
     display: flex;
@@ -146,11 +126,7 @@ text-align: center;
 }
 
 .aboutGroup{
-<<<<<<< HEAD
     /* padding-bottom: 10%; */
-=======
-    padding-bottom: 10%;
->>>>>>> a9b187b84f5550b1ed11bba15359a8e605f50746
 }
 .datePlace,.date{
     font-family: 'PrettyBoy-SemiBold';
@@ -164,7 +140,6 @@ text-align: center;
     color: #FEEBD7 ;
     /* text-shadow: 0.5px 0.5px 0px #FEEBD7; */
 }
-<<<<<<< HEAD
 
 @media screen and (max-width: 680px) {
     .aboutTitle{
@@ -176,29 +151,3 @@ text-align: center;
     }
 
 }
-=======
-@media screen and (max-width: 920px) {
-    .aboutGroup{
-        padding-top: 7em
-    }
-
-    
-}
-
-@media screen and (max-width: 680px) {
-    .datePlace{
-        padding-bottom: 2em;
-    }
-    /* .countDown{
-        padding-bottom: 2em;
-    } */
-    .aboutGroup{
-        padding-top: 9em
-    }
-    .aboutTitle{
-        display: none;
-    }
-
-}
-    
->>>>>>> a9b187b84f5550b1ed11bba15359a8e605f50746
