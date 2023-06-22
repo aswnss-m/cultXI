@@ -14,7 +14,7 @@ function Schedule() {
 
     return (
         <div className='container'>
-            <div className="leftContainer homeLeft">
+            <div className="leftContainer homeLeft ">
 
                 <Navbar />
                 <div className="link">
@@ -32,8 +32,9 @@ function Schedule() {
                 </div>
             </div>
 
-            <div className="rightContainer">
+            <div className="rightContainer scheduleRight">
                 <Routes>
+                    <Route path="/" element={<Sch1/>} />
                     <Route path="/scheduleDay1" element={<Sch1/>} />
                     <Route path="/scheduleDay2" element={<Sch2/>} />
                     <Route path="/scheduleDay3" element={<Sch3/>} />

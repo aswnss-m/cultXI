@@ -151,19 +151,19 @@ a {
   transition: all 1s ease-in-out;
 }
 
-.navNmusic{
+/* .navNmusic{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
  
-}
+} */
 .navBar {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 2em;
-
-
+  width: 85%;
 }
 
 .navBar a:hover {

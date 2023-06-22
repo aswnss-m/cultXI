@@ -11,7 +11,7 @@ function Navbar() {
         <Link to={"/"}>HOME</Link>
         <Link to={"/events"}>EVENT</Link>
         <Link to={"/sponsers"}>SPONSORS</Link>
-        <Link to={"/schedule"}>SCHEDULE</Link>
+        <Link to={"/schedule"} >SCHEDULE</Link>
     </div>
 </div>
   )
