@@ -12,7 +12,7 @@ function Footer() {
     <div className='footerContainer'>
       <div className="footerLink">
         <img src={instagram} alt="instagram" onClick={()=>navigate("https://www.instagram.com/cult_a_way")}/>
-        <img src={facebook} alt="facebook" />
+        <img src={facebook} alt="facebook" onClick={()=>navigate("https://www.instagram.com/cult_a_way")} />
         <img src={youtube} alt="youtube" />
       </div>
       <div className="footerDev">
