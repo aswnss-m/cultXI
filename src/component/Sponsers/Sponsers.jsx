@@ -36,8 +36,8 @@ function Sponsers() {
                         );
                     })}
                 </div>
+            <Footer />
             </div>
-            {/* <Footer /> */}
 
         </div>
 

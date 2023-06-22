@@ -7,7 +7,7 @@ import Navbar from '../Navbar/Navbar'
 import Sch1 from './Pages/Sch1'
 import Sch3 from './Pages/Sch3';
 import Sch2 from './Pages/Sch2';
-
+import Footer from '../Footer/Footer';
 
 function Schedule() {
     const navigate = useNavigate();
@@ -39,8 +39,8 @@ function Schedule() {
                     <Route path="/scheduleDay2" element={<Sch2/>} />
                     <Route path="/scheduleDay3" element={<Sch3/>} />
                 </Routes>
+            <Footer />
             </div>
-            {/* <Footer /> */}
 
         </div>
 
