@@ -11,14 +11,12 @@ function Footer() {
   return (
     <div className='footerContainer'>
       <div className="footerLink">
-        <img src={instagram} alt="instagram" onClick={()=>navigate("https://www.instagram.com/cult_a_way")}/>
-        <img src={facebook} alt="facebook" onClick={()=>navigate("https://www.instagram.com/cult_a_way")} />
-        <img src={youtube} alt="youtube" />
+        <Link to={"https://www.instagram.com/cult_a_way"} target='blank_'><img src={instagram} alt="instagram"/></Link>
+        <Link to={"https://www.facebook.com/cultaway.sctce"} target='blank_'><img src={facebook} alt="facebook" /></Link>
+        <Link to={'https://www.youtube.com/@CultAWay'} target='blank_'><img src={youtube} alt="youtube"/></Link>
       </div>
       <div className="footerDev">
-        <img src={dev} alt="developer" onClick={()=>{
-          navigate()
-        }}/>
+        <Link to={"https://linktr.ee/caw23dev"} target='blank_'><img src={dev} alt="developer"/></Link>
       </div>
     </div>
   )
