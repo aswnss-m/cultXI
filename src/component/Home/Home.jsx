@@ -4,6 +4,7 @@ import './Home.css'
 import { Link } from 'react-router-dom'
 import 'animate.css';
 import Music from '../Music/Music';
+import Footer from '../Footer/Footer';
 import About from './About';
 import Navbar from '../Navbar/Navbar';
 
@@ -92,6 +93,7 @@ function Home() {
                   <CountDown   isBirthday={isBirthday} days={days} hours={hours} minutes={minutes} seconds={seconds}  />
               </span>
               <About />
+              <Footer />
             </div>
         </div>
     )
