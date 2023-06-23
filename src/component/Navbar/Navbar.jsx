@@ -12,6 +12,7 @@ function Navbar() {
         <Link to={"/events"}>EVENT</Link>
         <Link to={"/sponsers"}>SPONSORS</Link>
         <Link to={"/schedule"} >SCHEDULE</Link>
+        <Link to={"/gallery"} >GALLERY</Link>
     </div>
 </div>
   )

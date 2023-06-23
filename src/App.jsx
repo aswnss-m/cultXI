@@ -7,6 +7,7 @@ import Sponsers from './component/Sponsers/Sponsers'
 import Music from './component/Music/Music'
 import Footer from './component/Footer/Footer'
 import Schedule from './component/Schedule/Schedule'
+import Gallery from './component/Gallery/Gallery'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Route path='/events/*' element={<Event />} />
         <Route path = '/sponsers' element= {<Sponsers/>}/> 
         <Route path = '/schedule*' element= {<Schedule/>}/> 
+        <Route path = '/gallery' element= {<Gallery/>}/> 
       </Routes>
     </div>
 

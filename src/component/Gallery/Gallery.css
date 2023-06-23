@@ -1,0 +1,57 @@
+.galleryRightContainer{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr  auto;
+    min-height: 90vh;
+    gap: 2em;
+}
+.uploadImageButton{
+    display: flex;
+    margin-top: 5em;
+    flex-direction: column;
+    width: 50%;
+    gap: 1em;
+    place-self: center;
+}
+@media screen and (max-width: 768px) {
+    .uploadImageButton{
+      margin-top: 1em;
+    }
+}
+  
+}
+input[type=file]::file-selector-button {
+    margin-right: 20px;
+    width: 50%;
+    align-self: center;
+    border: none;
+    background: #df0808;
+    padding: .5em ;
+    box-sizing: border-box;
+    border-radius: .5em;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+  }
+  .centerText{
+    text-align: center;
+  }
+  input[type=file]::file-selector-button:hover {
+    background: #a50d0d;
+  }
+  .uploadImageButton button{
+    padding: .5em;
+    border-radius: 1em;
+  }
+.photos{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: .5em;
+}
+
+.photo img{
+  object-fit: contain;
+  width: min(90vw, 300px);
+}
