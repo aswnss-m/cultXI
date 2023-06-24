@@ -9,7 +9,7 @@ export function CountDown({
 }) {
     return <div className="countDown">
         <h1 id="headline">{isBirthday ? " Welcome to " : "The saga Begins in "}</h1>
-        {!isBirthday && <div id="countdown">
+{/*         {!isBirthday && <div id="countdown">
             <ul id='countDownUl'>
                 <li>
                     <span id="days">{days}</span>days
@@ -27,8 +27,8 @@ export function CountDown({
             <h3 className="datePlace">
                 <span className="date">June 23 24 25</span> | at Kanakakunnu Palace
             </h3>
-        </div>}
-        { isBirthday && <div>
+        </div>} */}
+{/*         { isBirthday && <div>
             <div className="cultAWayTitle">
                     <Zoom cascade damping={1e-1}>
                         <h1 className="cultAWay theTitle">CULT A AWAY '23</h1>
@@ -36,6 +36,15 @@ export function CountDown({
                     </Zoom>
             </div>
             
-            </div>}
+            </div>} */}
+            <div>
+            <div className="cultAWayTitle">
+                    <Zoom cascade damping={1e-1}>
+                        <h1 className="cultAWay theTitle">CULT A AWAY '23</h1>
+                        <h2>11th Edition</h2>
+                    </Zoom>
+            </div>
+            
+            </div>
     </div>;
 }
